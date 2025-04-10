@@ -195,12 +195,14 @@ function App() {
           </button>
         </div>
       </div>
-      <Resume
-        ref={resumeRef}
-        personalInfo={personalInfo}
-        education={sections.education}
-        experiences={sections.experiences}
-      />
+      <div className="right">
+        <Resume
+          ref={resumeRef}
+          personalInfo={personalInfo}
+          education={sections.education}
+          experiences={sections.experiences}
+        />
+      </div>
     </div>
   );
 }
