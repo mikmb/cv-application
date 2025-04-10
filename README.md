@@ -2,4 +2,4 @@
 
 A customizable Resume Generator built with React.
 
-[Demo]().
+[Demo](https://generate-resume-and-download.netlify.app/).
