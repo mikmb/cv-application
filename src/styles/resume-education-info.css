@@ -1,0 +1,26 @@
+.education-info {
+  display: flex;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  gap: 2rem;
+}
+
+.education-info-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.education-info-school-name {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.education-info-major {
+  margin-top: 0;
+}
+
+@media (max-width: 800px) {
+  .education-info {
+    font-size: 0.75rem;
+    gap: 0.25rem;
+  }
+}

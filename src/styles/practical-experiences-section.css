@@ -1,0 +1,13 @@
+.experiences-section {
+  background-color: #fff;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  padding: 0 1rem 1rem 1rem;
+}
+
+@media (max-width: 800px) {
+  .experiences-section {
+    font-size: 0.75rem;
+    padding: 0 0.5rem 0.5rem 0.5rem;
+  }
+}

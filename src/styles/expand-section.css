@@ -1,0 +1,25 @@
+.expand-section {
+  margin-top: 1rem;
+  width: 100%;
+}
+button.expand-section {
+  border: none;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 0;
+}
+
+.expand-section-header i {
+  padding-right: 0.5rem;
+}
+
+@media (max-width: 800px) {
+  button.expand-section {
+    font-size: 0.75rem;
+    gap: 0.5rem;
+    padding: 0;
+  }
+}

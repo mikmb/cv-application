@@ -1,0 +1,37 @@
+.template-loader {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #fff;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.template-loader button {
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: #e5e5e5;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: 0.2s;
+}
+
+.clear-resume {
+  color: #d62828;
+}
+.clear-resume i {
+  padding-right: 0.5rem;
+}
+
+.clear-resume:hover,
+.load-example-data:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 800px) {
+  .template-loader {
+    flex-direction: column;
+  }
+}
