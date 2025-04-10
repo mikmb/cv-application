@@ -10,8 +10,6 @@ import "./styles/App.css";
 
 function App() {
   const [personalInfo, setPersonalInfo] = useState(exampleData.personalInfo);
-  const [education, setEducation] = useState(exampleData.education);
-  const [experiences, setExperience] = useState(exampleData.experiences);
   const [sectionOpen, setSectionOpen] = useState(null);
   const [prevState, setPrevState] = useState(null);
   const [sections, setSections] = useState({
